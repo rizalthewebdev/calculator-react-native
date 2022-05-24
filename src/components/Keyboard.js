@@ -30,6 +30,7 @@ export default function Keyboard() {
          return;
       }
       setCalc(calc + value);
+      setResult(eval(calc + value).toString());
    };
 
    // Clear Input
@@ -37,6 +38,8 @@ export default function Keyboard() {
       setCalc("");
       setResult("");
    };
+
+   // Move result to calc  
    const getResult = () => {
       setCalc(eval(calc).toString());
    };
