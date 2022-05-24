@@ -59,7 +59,7 @@ export const Styles = StyleSheet.create({
    },
    screenFirstNumber: {
       fontSize: 55,
-      color: colors.dark,
+      color: colors.gray,
       fontWeight: "400",
       alignSelf: "flex-end",
    },
@@ -67,6 +67,5 @@ export const Styles = StyleSheet.create({
       fontSize: 35,
       color: colors.gray,
       fontWeight: "300",
-      alignSelf: "flex-end",
    },
 });
